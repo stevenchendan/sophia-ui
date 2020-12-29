@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/stevenchendan/sophia-ui#readme",
   "devDependencies": {
+    "ts-loader": "^8.0.12",
     "webpack": "^5.11.1",
     "webpack-dev-server": "^3.11.0"
   }
