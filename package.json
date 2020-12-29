@@ -10,10 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/stevenchendan/sophia-ui.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/stevenchendan/sophia-ui/issues"
   },
-  "homepage": "https://github.com/stevenchendan/sophia-ui#readme"
+  "homepage": "https://github.com/stevenchendan/sophia-ui#readme",
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
