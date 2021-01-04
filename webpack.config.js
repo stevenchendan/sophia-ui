@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'production',
   entry: {
@@ -20,5 +21,11 @@ module.exports = {
         loader: "ts-loader" 
       }
     ]
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'SophiaUI - React',
+      template: 'index.html'
+    })
+  ]
 }
