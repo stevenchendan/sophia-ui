@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/stevenchendan/sophia-ui#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@webpack-cli/init": "^1.1.1",
     "html-webpack-plugin": "^4.5.1",
     "ts-loader": "^8.0.12",
     "typescript": "^4.1.3",
@@ -28,6 +32,7 @@
     "webpack-dev-server": "^3.11.1"
   },
   "dependencies": {
-    "@webpack-cli/init": "^1.1.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
