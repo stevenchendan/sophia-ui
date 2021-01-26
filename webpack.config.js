@@ -4,14 +4,14 @@ module.exports = {
   entry: {
     index: './lib/index.tsx'
   },
+  resolve: {
+    // Add `.ts` and `.tsx` as a resolvable extension.
+    extensions: [".ts", ".tsx", ".js", ".jsx"]
+  },
   output: {
     path: path.resolve(__dirname, 'dist/lib'),
     library: 'sophiaui',
     libraryTarget: 'umd'
-  },
-  resolve: {
-    // Add `.ts` and `.tsx` as a resolvable extension.
-    extensions: [".ts", ".tsx", ".js", ".jsx"]
   },
   module: {
     rules:[
@@ -20,6 +20,5 @@ module.exports = {
         loader: "ts-loader" 
       }
     ]
-  },
-  
+  }
 }
