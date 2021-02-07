@@ -26,6 +26,7 @@
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "@types/babel__core": "^7.1.12",
+    "@types/jest": "^26.0.20",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@webpack-cli/init": "^1.1.1",
