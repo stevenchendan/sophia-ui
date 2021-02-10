@@ -3,7 +3,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = ({}, base, {
   mode: 'production',
-  external: {
+  externals: {
     react: {
       commonjs: 'react',
       commonjs2: 'react',
