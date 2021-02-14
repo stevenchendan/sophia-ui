@@ -20,9 +20,9 @@ module.exports = {
         loader: "ts-loader" 
       },
       {
-        test: /\*svg$/,
-        loader: 'svg-sprite-loader'
-      }
+        test: /icons.+\.svg$/,
+        loader: 'svg-sprite-loader',
+      },
     ]
   }
 }
