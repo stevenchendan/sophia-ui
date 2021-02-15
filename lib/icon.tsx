@@ -1,18 +1,12 @@
 import React from 'react';
-import bitcoin from './icons/bitcoin.svg';
-import wechat from './icons/wechat.svg';
-import print from './icons/print.svg';
-import twitter from './icons/twitter.svg';
+import './icons/bitcoin.svg';
+import './icons/wechat.svg';
+import './icons/print.svg';
+import './icons/twitter.svg';
 
 interface IconProps {
   name: string;
 }
-
-console.log(wechat);
-console.log(bitcoin);
-console.log(print);
-console.log(twitter);
-
 
 const Icon: React.FunctionComponent<IconProps> = (props) => {
   console.log(props);
