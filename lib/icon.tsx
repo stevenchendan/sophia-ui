@@ -1,8 +1,5 @@
 import React from 'react';
-import './icons/bitcoin.svg';
-import './icons/wechat.svg';
-import './icons/print.svg';
-import './icons/twitter.svg';
+import './importIcons.tsx';
 
 interface IconProps {
   name: string;
